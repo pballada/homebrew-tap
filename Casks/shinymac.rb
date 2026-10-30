@@ -4,7 +4,7 @@ cask "shinymac" do
 
   url "https://github.com/pballada/shinyMac/releases/download/v#{version}/ShinyMac-#{version}.zip"
   name "ShinyMac"
-  desc "Open-source Mac cleaner and complete app uninstaller"
+  desc "System cleaner and complete app uninstaller"
   homepage "https://github.com/pballada/shinyMac"
 
   livecheck do
@@ -12,7 +12,7 @@ cask "shinymac" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "ShinyMac.app"
 
