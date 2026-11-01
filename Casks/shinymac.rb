@@ -1,6 +1,6 @@
 cask "shinymac" do
-  version "0.1.0"
-  sha256 "7324ad0c07f3554d3f169b7b3418d7e0459de2db9a4f6b7557505675a32a3939"
+  version "0.2.0"
+  sha256 "19285a343ae4e877be0638a3c1573c612e9ec1bfa2c3b9d4c5fba8d42101ab17"
 
   url "https://github.com/pballada/shinyMac/releases/download/v#{version}/ShinyMac-#{version}.zip"
   name "ShinyMac"
