@@ -1,6 +1,6 @@
 cask "forest" do
-  version "0.4.0"
-  sha256 "f49d21a3dedb4a56c0999d648c6ec116b906e7ac14db3f6d11a755e43ee718a8"
+  version "0.5.0"
+  sha256 "6cbd93a3137575e61bf3380f148b6a4ad34949461fcd78fa84ead0cc8077aa2c"
 
   url "https://github.com/pballada/forest/releases/download/v#{version}/Forest-#{version}.zip"
   name "Forest"
@@ -26,3 +26,4 @@ cask "forest" do
     "~/Library/Saved Application State/com.pballada.forest.savedState",
   ]
 end
+
